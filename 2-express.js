@@ -1,9 +1,12 @@
 express = require('express')
 app = express()
 
-app.set('port', 1337)
-app.set('views', __dirname + "/views")
+path = require('path')
+app.use(express.static(path.join(__dirname, 'public')))
+app.set('views', __dirname + "/views");
 app.set('view engine', 'ejs');
+
+app.set('port', 1337);
 
 app.get(
   '/hello/:name', 

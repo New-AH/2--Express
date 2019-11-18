@@ -4,8 +4,10 @@
   "description": "",
   "main": "2-express.js",
   "dependencies": {
+    "boostrap": "^2.0.0",
     "ejs": "^2.7.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {},
   "scripts": {
