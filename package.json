@@ -1,0 +1,24 @@
+{
+  "name": "2--express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2-express.js",
+  "dependencies": {
+    "ejs": "^2.7.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/New-AH/2--Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/New-AH/2--Express/issues"
+  },
+  "homepage": "https://github.com/New-AH/2--Express#readme"
+}
